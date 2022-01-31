@@ -21,7 +21,7 @@ Feature: Login Page Feature
 ```
     
 ### Run Tests
-- `mvn clean install`
+- `mvn clean install -DsuiteXmlFile=E2e_test.xml`
 
 ### Test results
 On build complete, result will be present in: `../target/results/cucumber-maven-reports/cucumber-html-reports/overview-features.html`.
