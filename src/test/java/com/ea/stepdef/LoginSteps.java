@@ -14,7 +14,7 @@ public class LoginSteps {
     public LoginPage loginPage = new LoginPage();
 
     @Then("Login page is shown")
-    public void pageDisplayed() {
+    public void displayLoginPage() {
         loginPage.pageDisplayed();
     }
 
