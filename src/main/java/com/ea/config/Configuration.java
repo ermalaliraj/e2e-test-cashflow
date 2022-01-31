@@ -8,7 +8,7 @@ import java.util.Properties;
 public class Configuration {
 
     public static final String SCREENSHOT_PATH = "test-output/Screenshots/";
-    public static final String DRIVER_PATH = "src/resources/driver/chromedriver.exe"; // v97
+    public static final String DRIVER_PATH = "resources/driver/chromedriver.exe"; // v97
     private static final String CONFIG_FILE_PATH = "config/" + TestContext.getInstance().getEnvironment() + ".properties";
     private static final String USERS_FILE_PATH = "config/users.properties";
     private final Properties properties;
