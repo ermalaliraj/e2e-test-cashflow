@@ -25,7 +25,7 @@ Feature: Login Page Feature
 
 ### Test results
 On build complete, result will be present in: `../target/results/cucumber-maven-reports/cucumber-html-reports/overview-features.html`.
-The output will look like this:  ![Cucumber Result](./src/resources/img/cucumber_result.JPG)
+The output will look like this:  ![Cucumber Result](resources/img/cucumber_result.JPG)
 
 ### Full Enterprise Infrastructure
 <img src="./src/resources/img/full_infrastructure.JPG" width="80%" height="auto">
